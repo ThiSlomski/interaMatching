@@ -5,19 +5,14 @@ const routes = express.Router({
 });
 
 routes.get('/', (req, res) => {
-    res.status("200").json({});
-});
 
-routes.post('/', (req, res) => {
-    res.status("200").json({});
-});
-
-routes.put('/{id}', (req, res) => {
-    res.status("200").json({});
-});
-
-routes.delete('/{id}', (req, res) => {
-    res.status("200").json({});
+    body = req;
+    console.log(body);
+    response = {
+        message: "Aqui faremos a lógica do match"
+    };
+    res.status("200").json(response);
+    
 });
 
 module.exports= {
