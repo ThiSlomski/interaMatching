@@ -1,5 +1,5 @@
 {
-  "name": "interamatching",
+  "name": "interamatchings",
   "version": "1.0.0",
   "description": "matching...",
   "main": "index.js",
@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/ThiSlomski/interaMatching/issues"
   },
-  "homepage": "https://github.com/ThiSlomski/interaMatching#readme"
+  "homepage": "https://github.com/ThiSlomski/interaMatching#readme",
+  "dependencies": {
+    "aws-serverless-express": "^3.4.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
